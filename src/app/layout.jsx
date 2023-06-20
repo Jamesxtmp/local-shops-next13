@@ -1,8 +1,10 @@
 import './globals.css'
-import { Comic_Neue, Inter } from 'next/font/google'
+import 'material-icons/iconfont/material-icons.css'
+import { Titillium_Web } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
-const comicNeue = Comic_Neue({  weight: '700', subsets: ['latin'] })
+import HeaderSearch from '@/components/HeaderSearch'
+
+const titilliumWeb = Titillium_Web({ weight:'300', subsets: ['latin'] })
 
 export const metadata = {
   title: 'Local Shops',
@@ -12,8 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head></head>
-      <body className={comicNeue.className}>{children}</body>
+      <body className={titilliumWeb.className}>
+        <HeaderSearch/>
+        {children}
+      </body>
     </html>
   )
 }

@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
+    "firebase": "^9.22.2",
+    "material-icons": "^1.13.8",
     "next": "13.4.6",
     "postcss": "8.4.24",
     "react": "18.2.0",
