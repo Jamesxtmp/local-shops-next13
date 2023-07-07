@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Product({ product }) {
   return (
-    <div className="p-2  w-1/2">
+    <div className="">
       <div className=" bg-zinc-900 rounded-lg overflow-hidden p-2">
         <div className="overflow-hidden flex items-center" >
           <Image

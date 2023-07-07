@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/edge-config": "^0.2.1",
+    "@vercel/postgres": "^0.4.0",
+    "@vercel/postgres-kysely": "^0.4.0",
     "autoprefixer": "10.4.14",
-    "firebase": "^9.22.2",
     "material-icons": "^1.13.8",
     "next": "13.4.6",
     "postcss": "8.4.24",
